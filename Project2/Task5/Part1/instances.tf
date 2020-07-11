@@ -1,4 +1,4 @@
-resource "aws_instance" "example" {
+resource "aws_instance" "micro" {
   ami = var.instance_ami
   instance_type = var.instance_type_micro
   vpc_security_group_ids = [var.security_group]
