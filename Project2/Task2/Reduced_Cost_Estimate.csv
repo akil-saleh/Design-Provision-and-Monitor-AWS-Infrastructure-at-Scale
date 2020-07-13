@@ -3,7 +3,7 @@ Initial_Cost_Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0
 Initial_Cost_Estimate,US East (N. Virginia),Amazon Route 53,0,0.9,10.8,USD,Hosted Zones (1)
 Initial_Cost_Estimate,US East (N. Virginia),Amazon EC2,0,147.68,1772.16,USD,"Operating system (Linux), Quantity (2), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (50 GB), Instance type (t3a.xlarge)"
 Initial_Cost_Estimate,US East (N. Virginia),Amazon EC2,0,1725.28,20703.36,USD,"Operating system (Linux), Quantity (2), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (c3.8xlarge)"
-Initial_Cost_Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,3981.036,47772.43,USD,"Quantity (1), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (200 GB), Additional backup storage (1 TB), Multi AZ"
+Initial_Cost_Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,1422.53,17070.36,USD,"Quantity (1), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (200 GB), Additional backup storage (1 TB), Multi AZ"
 Initial_Cost_Estimate,US East (N. Virginia),Amazon CloudWatch,0,91.68,1100.16,USD,
 Initial_Cost_Estimate,US East (N. Virginia),S3 Standard,0,24.45,293.4,USD,S3 Standard storage (1 TB per month)
 Initial_Cost_Estimate,US East (N. Virginia),S3 Glacier,0,41.07,492.84,USD,S3 Glacier storage (10 TB per month)
@@ -13,7 +13,7 @@ Initial_Cost_Estimate,US East (N. Virginia),Data Transfer,0,8.91,106.92,USD," In
 Initial_Cost_Estimate,US East (N. Virginia),Amazon Elastic IP,0,0,0,USD,"Number of EC2 instances (4), Number of EIPs per instance (1)"
 Initial_Cost_Estimate,US East (N. Virginia),AWS Key Management Service,0,70,840,USD,"Number of customer managed Customer Master Keys (CMK) (10), Number of symmetric requests (20000000)"
 Initial_Cost_Estimate,US East (N. Virginia),Amazon CloudFront,0,500,3000,USD,"5 TB Data Transfer out, 10 Million HTTPS requests"
-,,,,,,,
+Initial_Cost_Estimate,US East (N. Virginia),Elastic Load Balancing,0,687,8244,USD,Number of Application Load Balancers (2)
 ,,,,,,,
 "AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
 1) RDS is selected as Multi-AZ so even though it show quantity as 1 it is taking care of cost included for Read Replica.,,,,,,,
